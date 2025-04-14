@@ -122,6 +122,14 @@ docker-compose up --build
 
 ---
 
+## 🗂️ Quadro de Tarefas (Kanban)
+
+O planejamento, andamento e acompanhamento das tarefas deste projeto estão organizados no Trello:
+
+👉 [Acessar Quadro Trello - Desafio Técnico Consulta de Crédito](https://trello.com/b/uXMxb9kq/desafio-tecnico-consulta-de-credito)
+
+---
+
 ## 🛠️ Dockerfile do Frontend
 
 ```dockerfile
