@@ -27,6 +27,7 @@ CredConsulta/
 ├── docker-compose.yml
 └── .env
 ```
+
 ---
 
 ## 🚀 Como Executar o Projeto
@@ -96,6 +97,31 @@ docker-compose up --build
 
 ---
 
+## 🧪 Testes
+
+### Testes Unitários
+
+- **Frontend (Angular)**:
+  - Utiliza o framework de testes **Karma + Jasmine**
+  - Execute com:
+    ```bash
+    npm run test
+    ```
+
+- **Backend (Spring Boot)**:
+  - Utiliza **JUnit 5** e **Mockito** para testes unitários de serviços e controladores
+  - Execute com:
+    ```bash
+    ./mvnw test
+    ```
+
+### Testes de Integração
+
+- O backend inclui testes de integração usando `@SpringBootTest`, conectando a banco H2 e simulando endpoints REST.
+- Pode-se estender para testes com containers reais usando Testcontainers se necessário.
+
+---
+
 ## 🛠️ Dockerfile do Frontend
 
 ```dockerfile
@@ -155,6 +181,4 @@ docker exec -it credconsulta-frontend-1 cat /usr/share/nginx/html/index.html
 ---
 
 Projeto pronto para ser utilizado em desenvolvimento local e deploy em produção com Docker ✨
-
-
 
