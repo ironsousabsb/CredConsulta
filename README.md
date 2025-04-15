@@ -35,7 +35,7 @@ CredConsulta/
 ### 1. Clone o repositório
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/ironsousabsb/CredConsulta.git
 cd CredConsulta
 ```
 
